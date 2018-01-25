@@ -1,0 +1,10 @@
+mixin b-app-block()
+	+b.app-block
+		+e('h1').title Hello, World!
+		+e('img').logo(src=asset('i/dog.jpg'))
+		+e.icon-list
+			+svg-icons('aircraft-take-off')
+			+svg-icons('chat')
+			+svg-icons('home')
+			+svg-icons('magnifying-glass')
+			+svg-icons('star')

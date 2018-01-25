@@ -1,0 +1,14 @@
+include ../../node_modules/bemto.pug/bemto
+include ../globals/common
+include ../globals/svg-mixin
+include ../blocks/index
+
+doctype html
+html
+	head
+		title= pageTitle
+		block meta
+		block styles
+	body
+		block main
+		block scripts
