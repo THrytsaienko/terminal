@@ -1,4 +1,4 @@
-mixin b-header(title)
-	+b('header').header
-		+e('h1').title= title
-		+e('img').logo(src=asset('i/logo.png') style="width: 100px;")
+mixin b-header()
+	+b('header').header.container
+		+e('img').img(src='i/book.png' alt='Book')
+		+e('h1').text Центр надання адміністративних послуг
